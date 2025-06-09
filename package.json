@@ -1,0 +1,19 @@
+{
+  "name": "knip-bug-locally-ignored-files-git",
+  "version": "1.0.0",
+  "description": "Repo to reproduce a bug in knip where files locally ignored through .git folder are shown as unused by knip",
+  "author": {
+    "email": "gonzalo.n.delia@gmail.com",
+    "name": "Gonzalo D'Elia"
+  },
+  "scripts": {
+    "knip": "knip",
+    "knip:debug": "knip --debug",
+    "postinstall": "node index.mjs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "knip": "5.60.2"
+  },
+  "type": "module"
+}
