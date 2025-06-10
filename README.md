@@ -1,6 +1,6 @@
 # Knip reproduction issue
 
-This repo is a simple repository to reproduce a bug in knip in which files added to `.git/info/exclude` should be ignored, but they are listed as unused files (which is incorrect)
+This repo is a simple repository to reproduce a bug in knip in which files added to `.git/info/exclude` should be ignored, but they are listed as unused files (which is incorrect). See https://github.com/webpro-nl/knip/issues/1129
 
 ## Setup
 
